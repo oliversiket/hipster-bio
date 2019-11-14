@@ -7,12 +7,23 @@
         <title>Hipster Bio Generator</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" >
+
     </head>
     <body>
-        <h1>Welcome to the one and only Hipster Bio generator!</h1>
-        <a href="bio">Let's get started!</a>
+        <h1>Choose your generator:</h1>
+
+        <a href="/bio" class="hipster-card-link">
+            <div class="card">
+            <img src="{{ asset('images/hipster-preview.png') }}" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Hipster Bio</b></h4>
+                <p>Randomly generates new hipster bio</p>
+            </div>
+            </div>
+        </a>
     </body>
 </html>

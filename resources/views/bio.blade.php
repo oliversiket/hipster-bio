@@ -31,7 +31,8 @@
 
         <!-- Footer Content -->
     <footer>
-
+        <p>Data generated from the original <a href="https://hpstr.me/">HPSTR Generator</a>. App created with <a href="https://laravel.com/">Laravel</a>.</p>
+        <a class="github-link" href="https://github.com/oliversiket/hipster-bio">View Code on Github</a>
     </footer>
 </body>
 </html>
