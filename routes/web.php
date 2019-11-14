@@ -11,4 +11,5 @@
 |
 */
 Route::get('/', 'pageController@homePage');
+
 Route::get('bio', 'pageController@bioPage');
