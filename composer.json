@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "Hipster Bio",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Random hipster bio generator",
     "keywords": [
         "framework",
         "laravel"

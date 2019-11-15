@@ -45,7 +45,6 @@ Rename your env.example file:
 ```
 mv .env.example .env
 ```
-### Make sure you edit your Homestead.yaml file too and change the memory from 2048mb to 512mb
 
 Now you can fire up your virtual machine:
 
@@ -53,4 +52,23 @@ Now you can fire up your virtual machine:
 vagrant up
 ```
 
+After installation - SSH into your virtual box:
+```
+vagrant ssh
+```
+
+Change directory:
+```
+cd code
+```
+
+Use artisan to generate a key:
+```
+artisan key:generate
+```
+
+Exit from your virtual box:
+```
+exit
+```
 Visit your app at: http://homestead.test/
