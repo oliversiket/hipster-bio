@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" >   
 </head>
@@ -21,7 +20,6 @@
     <main>
         <section class="bio-wrapper">
             <div>
-                <!-- <h3> {{ $bios->bio->name }} </h3> -->
                 <h3> {{ $bios->bio->content }} </h3>
                 <a href="/bio"">Generate another one</a>
             </div>

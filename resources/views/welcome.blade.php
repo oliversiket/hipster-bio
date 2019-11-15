@@ -18,7 +18,7 @@
 
         <a href="/bio" class="hipster-card-link">
             <div class="card">
-            <img src="{{ asset('images/hipster-preview.png') }}" alt="Avatar" style="width:100%">
+            <img src="{{ asset('images/hipster-preview.png') }}" alt="hipster-preview" style="width:100%">
             <div class="container">
                 <h4><b>Hipster Bio</b></h4>
                 <p>Randomly generates new hipster bio</p>

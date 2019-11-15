@@ -10,6 +10,11 @@ Welcome page / choose your generator
 Hipster Bio Generator
 ![app preview](./public/images/hipster-preview.png)
 
+## Technologies:
+ * Laravel
+ * Laravel Blade Templating Engine
+ * Guzzle (external HTTP requests)
+  
 ## For local setup follow these instructions:
 
 First you need to clone the repository:
